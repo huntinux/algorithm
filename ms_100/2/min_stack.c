@@ -1,13 +1,13 @@
 
 struct node{
-	int value;
-	int min;
+	int value; // 存储当前节点的值
+	int min; // 存放当前栈中的最小值
 }
 
 struct stack{
-	struct node *nodes;
-	int size;
-	int top;
+	struct node *nodes; // 栈
+	int size; // 栈最大大小
+	int top; // 栈顶位置
 }
 
 
